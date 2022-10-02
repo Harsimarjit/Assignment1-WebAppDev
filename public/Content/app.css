@@ -1,32 +1,33 @@
 /* custom css goes here */
-body, html {
+body{
     height: 100%;
-    background-image: url("/public/img/p.jpg");
+    background-color: #271736;
+    color: rgb(255, 255, 255);
+}
+li{
+    list-style: none;
+    padding-top:1vh;
 }
 
-.hero-image{
-    background-image: url('Assets\images\1.jpg');
-    background-color: grey;
-    height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 .sim {
     color:red;
 }
+#header{
+    width: 100%;
+    height: 100vh;
 
+    background-size:cover;
+    background-position: center;
+}
 #bgHome{
-    background-color:grey;
-    padding: 100px;
-    
+
+    height: 100vh;
+}
+.homeContent{
+    padding-top : 10vh;
 }
 .motto{
     text-align: right;
-    padding-top: 50px;
 }
 .motto_desc{
     text-align: right;
@@ -34,7 +35,7 @@ body, html {
 #projectsContainer{
     padding :20px;
     margin : 3px;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(90, 90, 90);
     height: 100vh;
 }
 #projectsContainer:hover{
@@ -47,12 +48,14 @@ body, html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-color: #080808;
 }
 .img-thumbnailServices {
     display: block;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    border: none;
 }
 .projectDesc{
     text-align: center;
@@ -61,7 +64,7 @@ body, html {
 #servicesContainer{
     padding :20px;
     margin : 3px;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(90, 90, 90);
     height: 100vh;
 }
 #servicesContainer:hover{
@@ -73,4 +76,35 @@ body, html {
 .servicesDesc{
     text-align: center;
     padding-top: 4px;
+}
+
+#aboutContainer{
+    padding-top: 15vh;
+    padding-bottom: 25vh;
+}
+#aboutInfo{
+    background-color: rgb(90, 90, 90);
+    padding-top: 7vh;
+    margin-top : 5vh;
+}
+
+.page-headings{
+    text-align: center;
+    margin-top: 3vh;
+    padding: 4vh;
+}
+#contactContain{
+    padding-top : 8vh;
+    padding-bottom: 35vh;
+}
+#bullet{
+    padding-right: 5px;
+}
+#aboutPad{
+    padding-top: 4vh;
+}
+#navBar{
+    background-color: rgb(63, 48, 100);
+    letter-spacing: 0.4vh;
+
 }
